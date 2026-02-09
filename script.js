@@ -1,11 +1,11 @@
 // ---------------------- HERO IMAGE ROTATION ----------------------
 const heroImages = [
-    "images/slipper1.jpg",
-    "images/slipper2.jpg",
-    "images/slipper3.jpg",
-    "images/slipper4.jpeg",
-    "images/slipper5.jpeg",
-    "images/slipper6.jpeg"
+    "slipper1.jpg",
+    "slipper2.jpg",
+    "slipper3.jpg",
+    "slipper4.jpeg",
+    "slipper5.jpeg",
+    "slipper6.jpeg"
 ];
 
 let currentHeroIndex = 0;
@@ -145,4 +145,5 @@ filterBtns.forEach(btn => {
 document.getElementById("searchInput").addEventListener("input", function() {
     const searchValue = this.value;
     displaySlippers("all", searchValue);
+
 });
