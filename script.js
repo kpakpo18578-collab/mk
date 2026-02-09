@@ -23,12 +23,12 @@ setInterval(changeHeroImage, 3000);
 
 // ---------------------- PRODUCTS ----------------------
 const slippers = [
-    { name: "Cozy Slippers", price: "GHS 15", image: "images/slipper1.jpg", category: "men" },
-    { name: "Summer Slippers", price: "GHS 12", image: "images/slipper2.jpg", category: "women" },
-    { name: "Winter Slippers", price: "GHS 20", image: "images/slipper3.jpg", category: "kids" },
-    { name: "Fancy Slippers", price: "GHS 25", image: "images/slipper4.jpeg", category: "women" },
-    { name: "Classic Slippers", price: "GHS 18", image: "images/slipper5.jpeg", category: "men" },
-    { name: "Cute Slippers", price: "GHS 22", image: "images/slipper6.jpeg", category: "kids" }
+    { name: "Cozy Slippers", price: "GHS 15", image: "slipper1.jpg", category: "men" },
+    { name: "Summer Slippers", price: "GHS 12", image: "slipper2.jpg", category: "women" },
+    { name: "Winter Slippers", price: "GHS 20", image: "slipper3.jpg", category: "kids" },
+    { name: "Fancy Slippers", price: "GHS 25", image: "slipper4.jpeg", category: "women" },
+    { name: "Classic Slippers", price: "GHS 18", image: "slipper5.jpeg", category: "men" },
+    { name: "Cute Slippers", price: "GHS 22", image: "slipper6.jpeg", category: "kids" }
 ];
 
 const productsDiv = document.getElementById("products");
@@ -147,3 +147,4 @@ document.getElementById("searchInput").addEventListener("input", function() {
     displaySlippers("all", searchValue);
 
 });
+
