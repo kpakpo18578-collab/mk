@@ -1,0 +1,87 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+  .whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    border-radius: 50px;
+    padding: 12px 20px;
+  }
+
+  /* Navbar brand deep blue */
+.navbar .navbar-brand h3 {
+    color: #003366;  /* deep blue */
+    font-weight: 700;
+}
+
+/* Navbar links deep blue */
+.navbar .nav-link {
+    color: #003366;  /* deep blue */
+    font-weight: 600;
+}
+
+/* Hover effect for links */
+.navbar .nav-link:hover {
+    color: #0055cc;  /* lighter blue on hover */
+}
+
+.hero-container {
+    position: relative;
+    width: 100%;
+    height: 400px; /* adjust height */
+    overflow: hidden;
+}
+
+.hero-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+#heroImage {
+    transition: opacity 1s ease-in-out;
+    opacity: 1;
+}
+.hero-container.fade img {
+    opacity: 0;
+}
+
+.hero-text h1, .hero-text p {
+    transition: opacity 1s ease-in-out;
+    opacity: 1;
+}
+
+.hero-text.fade-out h1,
+.hero-text.fade-out p {
+    opacity: 0;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card-img-top {
+    transition: transform 0.3s;
+}
+.card-img-top:hover {
+    transform: scale(1.05);
+}
+
+.hero-text {
+    color: white;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+}
+
+.card {
+    margin-bottom: 20px;
+}
