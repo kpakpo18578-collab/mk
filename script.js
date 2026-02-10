@@ -124,7 +124,7 @@ setInterval(changeHeroText, 4000);
 function buyNow(name, image) {
     const phone = "447588261010"; // Replace with your WhatsApp number
     const imageUrl = `${window.location.origin}/${image}`; 
-    const message = `Hi! I want to buy the ${name} from AB Collections.`;
+    const message = `Hi! I want to buy the ${name} from your Collections.`;
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
 }
@@ -147,4 +147,5 @@ document.getElementById("searchInput").addEventListener("input", function() {
     displaySlippers("all", searchValue);
 
 });
+
 
