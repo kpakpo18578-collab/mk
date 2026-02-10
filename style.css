@@ -19,13 +19,13 @@ h1 {
   /* Navbar brand deep blue */
 .navbar .navbar-brand h3 {
     color: #003366;  /* deep blue */
-    font-weight: 700;
+    font-weight: 100;
 }
 
 /* Navbar links deep blue */
 .navbar .nav-link {
     color: #003366;  /* deep blue */
-    font-weight: 600;
+    font-weight: 750;
 }
 
 /* Hover effect for links */
