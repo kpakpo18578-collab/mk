@@ -1,6 +1,5 @@
 // ---------------------- HERO IMAGE ROTATION ----------------------
 const heroImages = [
-    "logo.png"
     "slipper1.jpg",
     "slipper2.jpg",
     "slipper3.jpg",
@@ -22,12 +21,12 @@ setInterval(changeHeroImage, 3000);
 
 // ---------------------- PRODUCTS ----------------------
 const slippers = [
-    { name: "Cozy Slippers", price: "GHS 150", image: "slipper1.jpg", category: "men", colors: ["Black", "Brown", "Blue"] },
-    { name: "Summer Slippers", price: "GHS 120", image: "slipper2.jpg", category: "women", colors: ["Pink", "White", "Purple"] },
-    { name: "Winter Slippers", price: "GHS 250", image: "slipper3.jpg", category: "kids", colors: ["Red", "Grey", "Magnolia"] },
-    { name: "Fancy Slippers", price: "GHS 220", image: "slipper4.jpeg", category: "women", colors: ["Gold", "Black"] },
-    { name: "Classic Slippers", price: "GHS 180", image: "slipper5.jpeg", category: "men", colors: ["Black", "Brown"] },
-    { name: "Cute Slippers", price: "GHS 140", image: "slipper6.jpeg", category: "kids", colors: ["Yellow", "Pink"] }
+    { name: "Cozy Slippers", price: "GHS 15", image: "slipper1.jpg", category: "men", colors: ["Black", "Brown", "Blue"] },
+    { name: "Summer Slippers", price: "GHS 12", image: "slipper2.jpg", category: "women", colors: ["Pink", "White", "Purple"] },
+    { name: "Winter Slippers", price: "GHS 20", image: "slipper3.jpg", category: "kids", colors: ["Red", "Grey"] },
+    { name: "Fancy Slippers", price: "GHS 25", image: "slipper4.jpeg", category: "women", colors: ["Gold", "Black"] },
+    { name: "Classic Slippers", price: "GHS 18", image: "slipper5.jpeg", category: "men", colors: ["Black", "Brown"] },
+    { name: "Cute Slippers", price: "GHS 22", image: "slipper6.jpeg", category: "kids", colors: ["Yellow", "Pink"] }
 ];
 
 const productsDiv = document.getElementById("products");
@@ -35,7 +34,7 @@ const productsDiv = document.getElementById("products");
 // ---------------------- SIZE OPTIONS ----------------------
 function generateSizes() {
     let options = `<option value="">Select size</option>`;
-    for (let i = 15; i <= 45; i++) {
+    for (let i = 25; i <= 45; i++) {
         options += `<option value="${i}">${i}</option>`;
     }
     return options;
@@ -114,7 +113,7 @@ function displaySlippers(filter = "all", search = "") {
 
             const phone = "447588261010";
             const message =
-                `Hello, AB Collections, I want to order the following, %0A` +
+                `Hello, AB Collections, I want to order the following%0A` +
                 `Product: ${name}%0A` +
                 `Size: ${size}%0A` +
                 `Color: ${color}%0A` +
@@ -181,5 +180,3 @@ document.getElementById("searchInput").addEventListener("input", function () {
 
 // Initial display
 displaySlippers();
-
-
