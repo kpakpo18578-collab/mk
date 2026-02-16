@@ -1,11 +1,11 @@
 // ---------------------- HERO IMAGE ROTATION ----------------------
 const heroImages = [
-    "slipper1.jpg",
-    "slipper2.jpg",
-    "slipper3.jpg",
-    "slipper4.jpeg",
-    "slipper5.jpeg",
-    "slipper6.jpeg"
+    "images/slipper1.jpg",
+    "images/slipper2.jpg",
+    "images/slipper3.jpg",
+    "images/slipper4.jpeg",
+    "images/slipper5.jpeg",
+    "images/slipper6.jpeg"
 ];
 
 let currentHeroIndex = 0;
@@ -21,12 +21,12 @@ setInterval(changeHeroImage, 3000);
 
 // ---------------------- PRODUCTS ----------------------
 const slippers = [
-    { name: "Cozy Slippers", price: "GHS 15", image: "slipper1.jpg", category: "men", colors: ["Black", "Brown", "Blue"] },
-    { name: "Summer Slippers", price: "GHS 12", image: "slipper2.jpg", category: "women", colors: ["Pink", "White", "Purple"] },
-    { name: "Winter Slippers", price: "GHS 20", image: "slipper3.jpg", category: "kids", colors: ["Red", "Grey"] },
-    { name: "Fancy Slippers", price: "GHS 25", image: "slipper4.jpeg", category: "women", colors: ["Gold", "Black"] },
-    { name: "Classic Slippers", price: "GHS 18", image: "slipper5.jpeg", category: "men", colors: ["Black", "Brown"] },
-    { name: "Cute Slippers", price: "GHS 22", image: "slipper6.jpeg", category: "kids", colors: ["Yellow", "Pink"] }
+    { name: "Cozy Slippers", price: "GHS 150", image: "images/slipper1.jpg", category: "men", colors: ["Black", "Brown", "Blue", "Magnolia"] },
+    { name: "Summer Slippers", price: "GHS 120", image: "images/slipper2.jpg", category: "women", colors: ["Pink", "White", "Purple"] },
+    { name: "Winter Slippers", price: "GHS 200", image: "images/slipper3.jpg", category: "kids", colors: ["Red", "Grey"] },
+    { name: "Fancy Slippers", price: "GHS 250", image: "images/slipper4.jpeg", category: "women", colors: ["Gold", "Black"] },
+    { name: "Classic Slippers", price: "GHS 180", image: "images/slipper5.jpeg", category: "men", colors: ["Black", "Brown"] },
+    { name: "Cute Slippers", price: "GHS 220", image: "images/slipper6.jpeg", category: "kids", colors: ["Yellow", "Pink"] }
 ];
 
 const productsDiv = document.getElementById("products");

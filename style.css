@@ -150,3 +150,91 @@ h1 {
     font-size: 14px;
     padding: 8px;
 }
+/* ===== Dashboard Page Styles ===== */
+body.container.mt-5 {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+#loginSection h2,
+#uploadSection h4 {
+    color: #0055cc;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Inputs */
+#loginSection input,
+#uploadSection input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+/* Buttons */
+#loginSection button,
+#uploadSection button {
+    width: 48%;
+    padding: 10px 15px;
+    margin-right: 2%;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Specific button colors */
+#loginSection button.btn-primary {
+    background-color: #0055cc;
+    color: #fff;
+}
+
+#loginSection button.btn-primary:hover {
+    background-color: #0040a3;
+}
+
+#uploadSection button.btn-success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+#uploadSection button.btn-success:hover {
+    background-color: #218838;
+}
+
+#uploadSection button.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+#uploadSection button.btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* Center login section & upload section */
+#loginSection,
+#uploadSection {
+    text-align: center;
+}
+
+/* Responsive for small screens */
+@media (max-width: 576px) {
+    #loginSection button,
+    #uploadSection button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+/* Ensure all product items are visible by default */
+.product-item {
+    display: block !important;
+}
